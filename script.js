@@ -38,6 +38,18 @@ $(document).ready(function () {
     backSpeed: 60,
     loop: true,
   });
+  var typed = new Typed(".typing_1 ", {
+    strings: [
+      "Software Developer",
+      "Cyber Security Researcher",
+      "Hacker",
+      "Entrepreneur",
+      "Web Designer",
+    ],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true,
+  });  
 
   //owl carousel scripte
 
